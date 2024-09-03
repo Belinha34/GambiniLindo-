@@ -1,0 +1,141 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPpSKGBHNCvh58JeeKcijrF",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Belinha34/GambiniLindo-/blob/main/esferasraiosangulos\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 3,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ptDw0tXzC8h3",
+        "outputId": "50769716-de8a-4873-9487-9671c7d0f1c2"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite o raio da esfera50\n",
+            "o volume da esfera é:  523333.3333333333\n"
+          ]
+        }
+      ],
+      "source": [
+        "r = float(input(\"digite o raio da esfera\"))\n",
+        "\n",
+        "v = (4/3) * 3.14 * r **3\n",
+        "\n",
+        "print(\"o volume da esfera é: \", v)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = float(input(\"digite o valor do angulo: \"))\n",
+        "\n",
+        "r = a * 3.14 / 180\n",
+        "\n",
+        "print(\"o valor do angulo em radianos é: \", r)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "UzOsHHmXEPxk",
+        "outputId": "9cadd7ab-5343-4d1f-8337-e45836c068d3"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite o valor do angulo: 50\n",
+            "o valor do angulo em radianos é:  0.8722222222222222\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "r = float(input(\"digite o valor em radianos: \"))\n",
+        "\n",
+        "a = r * 180 / 3.14\n",
+        "\n",
+        "print(\"o valor do angulo em graus é: \", a)\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "hQvmkcuREw9X",
+        "outputId": "bbc3176b-2882-4394-9889-400334219e74"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite o valor em radianos: 50\n",
+            "o valor do angulo em graus é:  2866.2420382165606\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "r = float(input(\"digite o valor em radianos: \"))\n",
+        "a = r * 180 / 3.14\n",
+        "print(\"o valor do angulo em grados é: \", a)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "M2X0LnzHFBTi",
+        "outputId": "dfab6fe8-6932-46fd-958a-9d1643e510dd"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite o valor em radianos: 85\n",
+            "o valor do angulo em grados é:  4872.611464968153\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
