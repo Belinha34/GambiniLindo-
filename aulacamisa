@@ -1,0 +1,138 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPpobdhvolVxYUF0q1r7Dd9",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Belinha34/GambiniLindo-/blob/main/aulacamisa\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 5,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7de61MLbGmtb",
+        "outputId": "a44c3c68-fd61-4b7d-f977-edcbafa1eae1"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digita um numero ai: 37\n",
+            "o numero {num} é impar\n"
+          ]
+        }
+      ],
+      "source": [
+        "num = int(input(\"Digita um numero ai: \"))\n",
+        "\n",
+        "if num % 2 == 0:\n",
+        "  print(\"o numero {num} é par\")\n",
+        "else:\n",
+        "    print(\"o numero {num} é impar\")\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import math\n",
+        "\n",
+        "num = float(input(\"digite um numero ai: \"))\n",
+        "\n",
+        "if num >= 0:\n",
+        "  raiz_quadrada = math.sqrt(num)\n",
+        "  print(f\"A raiz quadrada de {num} é {raiz_quadrada}\")\n",
+        "  print(\"o numero {num} é positivo\")\n",
+        "else:\n",
+        "  print(\"o numero {num} é negativo\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "PVniOSTtNn0Q",
+        "outputId": "8fb47299-986b-4fae-c91d-428078cfc628"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite um numero ai: 45\n",
+            "A raiz quadrada de 45.0 é 6.708203932499369\n",
+            "o numero {num} é positivo\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "comprimento = float(input(\"digite o comprimento da camiseta em cm: \"))\n",
+        "largura = float(input(\"digite a largura da camiseta em cm: \"))\n",
+        "\n",
+        "if comprimento <= 60 and largura <= 45:\n",
+        "  tamanho = \"pp\"\n",
+        "\n",
+        "elif comprimento <= 65 and largura <= 48:\n",
+        "  tamanho = \"p\"\n",
+        "\n",
+        "elif comprimento <= 70 and largura <= 51:\n",
+        "  tamanho = \"M\"\n",
+        "\n",
+        "elif comprimento <= 75 and largura <= 54:\n",
+        "  tamanho = \"G\"\n",
+        "\n",
+        "elif comprimento <= 80 and largura <= 57:\n",
+        "  tamanho = \"GG\"\n",
+        "else:\n",
+        "  tamanho = \"XGG\"\n",
+        "\n",
+        "\n",
+        "  print(f\"o tamanho é {tamanho}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "F4OuChacQSQZ",
+        "outputId": "b06bf265-b0cd-455a-b9a4-055934169614"
+      },
+      "execution_count": 19,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "digite o comprimento da camiseta em cm: 60\n",
+            "digite a largura da camiseta em cm: 45\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
