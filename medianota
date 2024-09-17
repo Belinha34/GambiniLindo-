@@ -1,0 +1,120 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNYMxKca1SaNvoE/iRx7ohf"
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "MJvUtcPzIPGz",
+        "outputId": "f3a5fc48-33f0-4ba0-a811-916b49b8f8dd"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digita um numero ai: 4\n",
+            "o numero {num} não é divisivel por 3\n"
+          ]
+        }
+      ],
+      "source": [
+        "num = int(input(\"Digita um numero ai: \"))\n",
+        "\n",
+        "if num % 3 == 0:\n",
+        "  print(\"o numero {num} é divisivel por 3\")\n",
+        "else:\n",
+        "  print(\"o numero {num} não é divisivel por 3\")\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nota1 = float(input(\"Digite a nota 1: \"))\n",
+        "n2 = float(input(\"Digite a nota 2: \"))\n",
+        "\n",
+        "media = (nota1 + n2) / 2\n",
+        "\n",
+        "if media >= 5:\n",
+        "  print(\"Aprovado\")\n",
+        "elif media >= 4:\n",
+        "  print(\"Recuperação\")\n",
+        "else:\n",
+        "  print(\"Reprovado\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "rW1nZpY2KCjA",
+        "outputId": "2ed01fb8-e593-45d0-a8b4-fbea0a74f3d5"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite a nota 1: 4\n",
+            "Digite a nota 2: 4\n",
+            "Recuperação\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = float(input(\"Digite o valor a: \"))\n",
+        "b = float(input(\"Digite o valor b: \"))\n",
+        "c = float(input(\"Digite o valor c: \"))\n",
+        "\n",
+        "if a <= b and a <= c:\n",
+        "  print(\"O menor valor é: \", a)\n",
+        "elif b <= a and b <= c:\n",
+        "  print(\"O menor valor é: \", b)\n",
+        "else:\n",
+        "  print(\"O menor valor é: \", c)\n",
+        ""
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "qusO6wAJN9oD",
+        "outputId": "d1886a3f-8213-46a4-9455-b707eba3d28c"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite o valor a: 5\n",
+            "Digite o valor b: 8\n",
+            "Digite o valor c: 4\n",
+            "O menor valor é:  4.0\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
